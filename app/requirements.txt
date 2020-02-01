@@ -1,6 +1,5 @@
 datetime
 psycopg2
 panda
-os
 io
 boto3
