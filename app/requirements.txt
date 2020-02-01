@@ -3,4 +3,3 @@ psycopg2
 pandas
 boto3
 alpaca_trade_api
-alpaca_cred
