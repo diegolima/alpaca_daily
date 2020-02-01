@@ -8,6 +8,6 @@ provider "google" {
 terraform {
   backend "gcs" {
     bucket = "BUCKET"
-    prefix = "tfstate/PREFIX"
+    prefix = "ENV/tfstate/PREFIX"
   }
 }
