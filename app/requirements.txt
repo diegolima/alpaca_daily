@@ -1,4 +1,4 @@
 datetime
 psycopg2
-panda
+pandas
 boto3
