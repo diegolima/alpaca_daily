@@ -112,7 +112,7 @@ def load_data(symbol, symbol_id, conn, start_date):
         print('{} complete!'.format(symbol))
 
 
-def main():
+def main(request):
 
     initial_start_date = datetime.datetime(2010,12,30)
     
