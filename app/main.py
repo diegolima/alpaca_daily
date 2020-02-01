@@ -28,8 +28,8 @@ import io
 import boto3
 
 import alpaca_trade_api as tradeapi
-import q_credentials.alpaca_cred as alpaca_cred
-import q_credentials.db_secmaster_cred as db_secmaster_cred
+import alpaca_cred
+import db_secmaster_cred
 MASTER_LIST_FAILED_SYMBOLS = []
 
 
