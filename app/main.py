@@ -112,7 +112,7 @@ def load_data(symbol, symbol_id, conn, start_date):
         print('{} complete!'.format(symbol))
 
 
-def main(request):
+def daily(request):
 
     initial_start_date = datetime.datetime(2010,12,30)
     
@@ -177,7 +177,3 @@ def main(request):
             file_to_write.write("%s\n" % symbol)
 
         print(datetime.datetime.now() - startTime)
-    
-
-if __name__ == "__main__":
-    main()

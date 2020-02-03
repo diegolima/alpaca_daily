@@ -1,5 +1,5 @@
 function_name        = "alpaca_daily"
-function_entrypoint  = "main"
+function_entrypoint  = "daily"
 function_bucket_name = "smd-cloudfunctions"
 provider_region      = "us-east1"
 function_memory      = "256"

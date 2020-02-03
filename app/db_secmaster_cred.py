@@ -1,4 +1,4 @@
-dbHost="35.237.186.13"
+dbHost="35.243.183.63"
 dbUser="smd"
 dbPWD="p4ssw0rd"
-dbName="smd_prod"
+dbName="smd_secmaster"
