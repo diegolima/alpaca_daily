@@ -143,12 +143,4 @@ def daily(request):
                 load_data(symbol=symbol, symbol_id=symbol_id, conn=conn, start_date=last_date)
             except:
                 continue
-
-        # lets write our failed stock list to text file for reference
-        file_to_write = open('failed_symbols.txt', 'w')
-
-        for symbol in MASTER_LIST_FAILED_SYMBOLS:
-            file_to_write.write("%s\n" % symbol)
-
-        print(datetime.datetime.now() - startTime)
         return 'Daily - ok'
