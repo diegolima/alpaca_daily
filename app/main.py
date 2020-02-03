@@ -151,3 +151,4 @@ def daily(request):
             file_to_write.write("%s\n" % symbol)
 
         print(datetime.datetime.now() - startTime)
+        return 'Daily - ok'
