@@ -114,7 +114,7 @@ def daily(request):
     df_tickers=pd.read_excel(f,sheet_name='daily')
 
     if df_tickers.empty:
-        print("Empty Ticker List")
+        return("Empty Ticker List")
     else:
         # Getting the last date for each interested tickers
         sql="""select a.last_date, b.id as stock_id, b.ticker from
