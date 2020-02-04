@@ -143,4 +143,4 @@ def daily(request):
                 load_data(symbol=symbol, symbol_id=symbol_id, conn=conn, start_date=last_date)
             except:
                 continue
-        return 'Daily - ok'
+        return 'Daily - ok -'
